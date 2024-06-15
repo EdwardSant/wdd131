@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700; 
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card img {.web-dev-resources {
+    margin-bottom: 50px;
+}
+
+.web-dev-resources ul {
+    columns: 3;
+    column-gap: 10px;
+}
+    float: left;
+    margin-right: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 20%; 
+    object-fit: cover; 
+    float: card;
+}
+
+.card ul {
+    grid: column 1px / 3px;; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card ul li {
+    margin-bottom: 8px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos de los enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
